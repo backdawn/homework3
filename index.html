@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Authorization</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="form">
+		<div class="close">
+			<button>&#10005;</button>
+		</div>
+		<div class="carryover"></div>
+		<div class="text">
+			Member Sign In
+		</div>
+		<div class="carryover"></div>
+		<div class="not_member">
+			Not a member yet?
+			<a href="#">Sign up now</a>
+		</div>
+		<div class="carryover"></div>
+		<div class="input_field">
+			<div class="icon_color">
+				<img src="img/avatar.png">	
+			</div>
+				<input type="email" name="email" placeholder="Username / Email">				
+		</div>
+		<div class="carryover"></div>
+		<div class="input_field">
+			<div class="icon_color">
+				<img src="img/unlock.png">
+			</div>
+				<input type="password" name="password" placeholder="Password" id="password-input">
+			<div>
+				<a href="#" onclick="return show_hide_password(this);">
+					<img src="img/eye-close.png" id="image">
+				</a>
+			</div>
+		</div>
+		<div class="carryover"></div>
+		<div class="bottom">
+			<div class="sign_button">
+				<button>Sign In</button>
+			</div>
+			<div class="bottom_right">
+				<div class="bottom_right_text">
+					<input type="checkbox" id="checkbox-id" />
+					<label for="checkbox-id">Remember me</label>
+				</div>
+				<div>
+					<a href="#">Forgot Password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

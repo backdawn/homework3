@@ -1,0 +1,155 @@
+body{
+	background: rgb(253,136,0);
+	display: flex;
+	justify-content: center;
+}
+.form{
+	display: flex;
+	background-color: #E8E6E6;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 30px;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 350px;
+	margin: auto 0;
+	box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.59);
+}
+.close{
+	display: flex;
+	width: 100%;
+	margin: 5px;
+	justify-content: flex-end;
+}
+.close button{
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #e75847;
+	border: none;
+	color: #FFFFFF;
+}
+.close button:hover{
+	border: none;
+	background-color: #F6877A;
+}
+.close button:focus{
+	outline: none;
+}
+.close button:active{
+	outline: none;
+	background-color: #e75847;
+}
+.not_member{
+	color: white;
+	font-size: 13px;
+}
+.not_member a{
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
+}
+.not_member a:hover{
+	color: #6E6EE4;
+}
+.carryover{
+	flex-basis: 100%;
+	height: 0;
+}
+.input_field{
+	display: flex;
+	margin-top: 15px;
+	height: 40px;
+	width: 280px;
+	background-color: #FFFFFF;
+}
+.input_field input{
+	height: auto;
+	width: 250px;
+	border: none;
+	padding-left: 10px;
+	font-size: 15px;
+}
+.input_field input:focus{
+	outline: none;
+	background-color: #F7F7F7;
+}
+.input_field img{
+	height: 30px;
+	margin: 5px 5px;
+}
+.password{
+    background-color: #FFFFFF;
+}
+.icon_color{
+	background-color: #e75847;
+}
+.bottom{
+	display: flex;
+	width: 280px;
+	margin: 20px 0;
+}
+.sign_button{
+	height: 100%;
+	width: 50%;
+}
+.sign_button button{
+	font-size: 20px;
+	width: 100%;
+	background-color: #e75847;
+	color: #FFFFFF;
+	border: none;
+	margin-top: 10%;
+	padding: 10px 0;
+}
+.sign_button button:hover{
+	border: none;
+	background-color: #F6877A;
+}
+.sign_button button:focus{
+	outline: none;
+}
+.sign_button button:active{
+	outline: none;
+	background-color: #e75847;
+}
+.bottom_right input[type="checkbox"]{
+	display: none;
+}
+label{
+	font-size: 12px;
+}
+label:before{
+  content: '\2713';
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  background: #000000;
+  border: none;
+}
+.bottom_right input:checked + label:before{
+  content: " ";
+  background-color: #FFFFFF;
+}
+.bottom_right{
+	display: flex;
+	flex-flow: column wrap;
+	text-align: right;
+	width: 50%;
+}
+.bottom_right div{
+	position: relative;
+	bottom: 5px;
+}
+.bottom_right a{
+	position: relative;
+	bottom: 5px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+.bottom_right a:hover{
+	color: #6E6EE4;
+}
